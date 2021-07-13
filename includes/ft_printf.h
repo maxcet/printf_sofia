@@ -14,16 +14,16 @@ void	ft_print_hexadecimal(va_list args, int *bytes, int *index);
 void	ft_print_hexadecimal_p(va_list args, int *bytes, int *index);
 void	ft_printf_per(int *bytes);
 void	ft_putnbr_u(unsigned int n, int *bytes);
-void	ft_putnbr_x(unsigned  int n, int *bytes);
-void	ft_putnbr_ptr_x(unsigned  long n, int *bytes);
+void	ft_putnbr_x(unsigned int n, int *bytes);
+void	ft_putnbr_ptr_x(unsigned long n, int *bytes);
 void	ft_putnbr_xx(unsigned int n, int *bytes);
 void	ft_putnbr(int n, int *bytes);
+void	ft_kostil(int *index, int *bytes);
 
 int		ft_printf(const char *format, ...);
 int		ft_putchar(char c, int *bytes);
 int		ft_strlen(const char *s1);
 int		*ft_print_arg(int *bytes, int *index, va_list args, const char *format);
 int		ft_define_format(char c);
-void	ft_kostil(int *index, int *bytes);
 
 #endif

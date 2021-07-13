@@ -15,7 +15,7 @@ void	ft_putnbr_u(unsigned int n, int *bytes)
 	}
 }
 
-void	ft_putnbr_x(unsigned  int n, int *bytes)
+void	ft_putnbr_x(unsigned int n, int *bytes)
 {
 	if (n > 15)
 		ft_putnbr_x ((n / 16), bytes);
@@ -35,7 +35,7 @@ void	ft_putnbr_x(unsigned  int n, int *bytes)
 		*bytes = ft_putchar('f', bytes);
 }
 
-void	ft_putnbr_xx(unsigned  int n, int *bytes)
+void	ft_putnbr_xx(unsigned int n, int *bytes)
 {
 	if (n > 15)
 		ft_putnbr_xx ((n / 16), bytes);
@@ -81,7 +81,7 @@ void	ft_putnbr(int n, int *bytes)
 	}
 }
 
-void	ft_putnbr_ptr_x(unsigned  long n, int *bytes)
+void	ft_putnbr_ptr_x(unsigned long n, int *bytes)
 {
 	if (n > 15)
 		ft_putnbr_ptr_x ((n / 16), bytes);
